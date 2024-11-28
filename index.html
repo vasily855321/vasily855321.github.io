@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="d-flex">
+                <h1>вольных василий семёнович</h1>
+                <nav>
+                    <ul class="menu-list">
+                        <li><a href="#1" class="menu-item">главная</a></li>
+                        <li><a href="#2" class="menu-item">обо мне</a></li>
+                        <li><a href="#3" class="menu-item">портфолио</a></li>
+                        <li><a href="#4" class="menu-item">мои услуги</a></li>
+                        <li><a href="#5" class="menu-item">контакт</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="burger">
+                    <span>≡</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="d-flex">
+                <section class="main" id="1">
+                    <header>
+                        <div class="subtitle">Я - ваш фрилансер</div>
+                        <div class="subtitle_line"></div>
+                        <p>Веб-дизайнер. Fullstack-разработчик. Эксперт c++</p>
+                    </header>
+                    <img src="img/main-background.jpg" alt="">
+                </section>
+                <section class="about" id="2">
+                    <div class="content">
+                        <div class="d-flex">
+                            <div>
+                                <header>
+                                    <div class="subtitle">обо мне</div>
+                                    <div class="subtitle_line"></div>
+                                </header>
+                                <p>Я — фрилансер и фронтенд-разработчик с многолетним опытом в создании современных
+                                    веб-приложений.
+                                    Мои навыки включают HTML, CSS, JavaScript и популярные фреймворки, такие как React и
+                                    Vue.js.
+                                    Я
+                                    стремлюсь к созданию интуитивно понятных интерфейсов, обеспечивающих отличное
+                                    взаимодействие
+                                    с
+                                    пользователем. Также обладаю глубокими знаниями C++, что позволяет мне разрабатывать
+                                    высокопроизводительные решения и оптимизировать алгоритмы. Ценю четкость в
+                                    коммуникации
+                                    и
+                                    всегда
+                                    открыт для обсуждения идей с клиентами. Мой подход основан на внимании к деталям и
+                                    соблюдении
+                                    сроков. Давайте вместе создадим что-то удивительное!</p>
+                            </div>
+                            <img src="img/about.jpg" alt="фото Василия">
+                        </div>
+                    </div>
+                </section>
+                <section class="portfolio" id="3">
+                    <div class="content">
+                        <header>
+                            <div class="subtitle">Змейка</div>
+                            <div class="subtitle_line"></div>
+                        </header>
+                        <div class="snake">
+                            <canvas id="game" width="400" height="400"></canvas>
+                        </div>
+                    </div>
+                </section>
+                <section class="price" id="4">
+                    <div class="content">
+                        <header>
+                            <div class="subtitle">мои услуги</div>
+                            <div class="subtitle_line"></div>
+                        </header>
+                        <table class="iksweb">
+                            <tbody>
+                                <tr>
+                                    <td>Наименование работы</td>
+                                    <td>Сроки</td>
+                                    <td>Стоимость</td>
+                                </tr>
+                                <tr>
+                                    <td>Создание одностраничного сайта</td>
+                                    <td>5-7 дней</td>
+                                    <td>15,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Разработка многостраничного сайта</td>
+                                    <td>10-14 дней</td>
+                                    <td>30,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Создание интерфейса на React </td>
+                                    <td>3-5 дней</td>
+                                    <td>8,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Оптимизация существующего кода</td>
+                                    <td>5-7 дней</td>
+                                    <td>10,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Разработка SPA приложения</td>
+                                    <td>15-20 дней</td>
+                                    <td>40,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Поддержка и обновление сайта</td>
+                                    <td>По договоренности</td>
+                                    <td>5,000/мес</td>
+                                </tr>
+                                <tr>
+                                    <td>Консультации по UX/UI дизайну</td>
+                                    <td>1-2 дня</td>
+                                    <td>4,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                <section class="contact" id="5">
+                    <div class="content">
+                        <header>
+                            <div class="subtitle">контакт</div>
+                            <div class="subtitle_line"></div>
+                        </header>
+                        <div class="d-flex-r">
+                            <p>Липецк, Липецкая область, Россия</p>
+                            <form>
+                                <div class="d-flex-r1">
+                                    <input type="text" placeholder="Полное имя"></input>
+                                    <input type="text" placeholder="Телефон"></input>
+                                </div>
+                                <div class="d-flex-c">
+                                    <input type="email" placeholder="Адрес электронной почты"></input>
+                                    <input type="text" placeholder="Сообщение"></input>
+                                    <input type='submit' value="Свяжитесь со мной" class="but"></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="d-flex">
+                <nav class="footer">
+                    <ul>
+                        <li><a href="#1">главная</a></li>
+                        <li><a href="#2">обо мне</a></li>
+                        <li><a href="#">портфолио</a></li>
+                        <li><a href="#4">мои услуги</a></li>
+                        <li><a href="#5">контакт</a></li>
+                    </ul>
+                </nav>
+                <p>Авторские права © 2024 Все права защищены - Вольных Василий Cемёнович</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/index.js"></script>
+<script>
+    let a = document.querySelector(".burger");
+    let s = document.querySelector("header span");
+    let nav = document.querySelector("header nav");
+    let aa = document.querySelectorAll(".menu-item");
+    function qwerty(event) {
+        if (s.innerHTML == "≡") {
+            s.innerHTML = "✖"
+            nav.style.display = "inline-block";
+            s.style.color = "var(--background-color-1)";
+        }
+        else {
+            s.innerHTML = "≡"
+            nav.style.display = "none";
+            s.style.color = "var(--header-color)";
+        }
+    }
+    aa[0].addEventListener("click", qwerty);
+    aa[1].addEventListener("click", qwerty);
+    aa[2].addEventListener("click", qwerty);
+    aa[3].addEventListener("click", qwerty);
+    aa[4].addEventListener("click", qwerty);
+    a.addEventListener("click", qwerty);
+</script>
+
+</html>
